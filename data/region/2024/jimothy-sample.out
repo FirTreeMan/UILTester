@@ -1,0 +1,15 @@
+TEST CASE #1:
+PRE-ORDER TRAVERSAL: Never Gonna Give You Up
+IN-ORDER TRAVERSAL: Give Gonna Never Up You
+POST-ORDER TRAVERSAL: Give Gonna Up You Never
+REVERSE-ORDER TRAVERSAL: You Up Never Gonna Give
+TEST CASE #2:
+PRE-ORDER TRAVERSAL: Somewhere Over High Rainbow The Way Up
+IN-ORDER TRAVERSAL: High Over Rainbow Somewhere The Up Way
+POST-ORDER TRAVERSAL: High Rainbow Over Up Way The Somewhere
+REVERSE-ORDER TRAVERSAL: Way Up The Somewhere Rainbow Over High
+TEST CASE #3:
+PRE-ORDER TRAVERSAL: Dont Believing Stop
+IN-ORDER TRAVERSAL: Believing Dont Stop
+POST-ORDER TRAVERSAL: Believing Stop Dont
+REVERSE-ORDER TRAVERSAL: Stop Dont Believing

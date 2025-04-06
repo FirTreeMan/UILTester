@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "Ada Lovelace, a.k.a Augusta Ada King and the Countess of Lovelace and the daughter of one of the greatest British poets Lord\nByron, was also a pioneer in the discipling of computing. She worked with Charles Babbage in the 1830s on his Analytical\nEngine which was a follow-on to his simpler Difference Engine, a mechanical calculator.\n\nAda recognized that the Analytical Engine could be “programmed”, making it a general-purpose computer. Even though she\nworked with a mechanical device, not electronic as are modern computers, and her “programming” involved mechanical\nswitches, she is recognized as the world’s first programmer!\n\nWrite a program that displays the following exact message at the left edge of the screen:\n\n<b>Ada Lovelace – World's First Computer Programmer!</b>",
+  "Input": "None.",
+  "Output": "Exact statement shown above."
+}

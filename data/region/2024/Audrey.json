@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "UIL CompSci has decided it is time to celebrate. This year is the 33rd year of the UIL CompSci Event. In honor of the event,\nthere will be a parade, a chili cook-off, a formal dance, a picnic, and a karaoke contest. Of course, there will be merchandise for\nsale to cover all the costs. There will be hats, t-shirts, hoodies, and special socks for sale.\n\nAudrey, who is in charge of organizing the event, needs your help. With all of the merchandise being sold, there needs to be a\nspecial logo for the celebration. She wants you to write a program to display the logo shown below.\n\nDo this for Audrey, and do this for UIL CompSci.",
+  "Input": "None",
+  "Output": "Output the picture you see below."
+}
