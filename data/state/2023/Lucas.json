@@ -1,0 +1,5 @@
+{
+  "Body": "Lucas wants to find a way to give a value to any word. That value will be based on the specific letters in the word and how\nmany times each letter appears in the word.\n\nHe devised a plan that will count the number of times each letter of the alphabet occurs. For each letter, multiply its position in\nthe alphabet times the square of its number of occurrences within the word. Then, find the sum of those products. Letters not\nappearing in the word would contribute 0 points to the total.\n\nExamples:\n\n\t\"eee\" would produce the value of 45 (5 * 32)\n\t\"ccttcc\" would produce the value of 128 (3 * 4<sup>2</sup> + 20 * 2<sup>2</sup>)\n\nWrite a program that will help Lucas in this endeavor.",
+  "Input": "The first line will contain an integer, n, denoting the number of test cases in the data. The number of test cases will be in\nthe range of [5,25]. Each line of data will consist of a single string consisting of only lower-case letters. The length of the string\nwill be [1,40].",
+  "Output": "For each test case output an integer representing the word's value."
+}

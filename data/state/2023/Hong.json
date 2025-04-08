@@ -1,0 +1,5 @@
+{
+  "Body": "<img/>\n\nHowever, Hong wants start with a positive integer between 1 and 3999 and produce its Roman numeral form, the reverse of the\nabove process, as shown in the following examples:\n\n<img/>",
+  "Input": "Each test case consists of a single integer 1 ≤ R ≤ 3999 with an unknown number of integers per line separated by\nwhitespace and an unknown number of lines in the input file. There will be less than 100 test cases.",
+  "Output": "For each test case, output one line formatted as shown in the sample output. The line contains the input integer\nfollowed by “ -> ” and its Roman numeral form."
+}

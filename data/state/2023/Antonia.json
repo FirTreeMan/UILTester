@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "Antonia wants to salute the teams who are competing at the State UIL Meet this year.\n\nShe has created a message: \"BRAVO UIL COMPSCI\"\n\nShe would like to print it in a very specific way. Each letter is on a different line and is printed in uppercase letters. Each letter\nwill appear the same number of times as its position in the alphabet. An \"A\" would be printed once, a \"B\" would be printed two\ntimes ... a \"Z\" would be printed 26 times. Empty lines separate the words.\n\nHelp Antonia print her cool message.",
+  "Input": "None",
+  "Output": "The message as shown below along left edge of screen. Notice the two empty lines."
+}
