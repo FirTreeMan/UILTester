@@ -92,7 +92,7 @@ public class ProblemDisplayPane extends JScrollPane {
         name = problemNames[id];
         programName = problemNames[id] + ".java";
         inputFile = (data.has("No Input") && data.getInt("No Input") == 1) ? "None" : problemNames[id].toLowerCase() + ".dat";
-        body = data.getString("Body").replace("\n", "<br>");
+        body = data.getString("Body").replace("\n", "<br>").replace("\t", "&#9;");
         input = data.getString("Input").replace("\n", "<br>");
         output = data.getString("Output").replace("\n", "<br>");
         sampleInput = Files.readString(Paths.get(path + problemNames[id].toLowerCase() + "-sample.dat")).replace("\n", "<br>");

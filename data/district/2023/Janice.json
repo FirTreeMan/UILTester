@@ -1,0 +1,5 @@
+{
+  "Body": "Your best friend Janice and her friend Ariel like to send secret messages to each other, and they’ve taken to using a Caesar\ncipher to encode their messages. You need to determine what key they are using, given the encoded and real messages, and use it\nto decode another message. A Caesar cipher works by shifting the alphabet to the right a given amount (let’s call it s), and\nsubstituting all the letters in the original message with their corresponding letter in the newly shifted alphabet.",
+  "Input": "The first line will contain a single integer n (0 < n < 50) that indicates the number of data sets that follow. Each\ndata set will consist of three lines, each with their own string of uppercase letters and spaces. The first line will be the actual\nmessage that has been sent, the second line will be the encoded version of that message, and the third line is another encoded\nmessage to be decoded.",
+  "Output": "Output the decoded third line of the input, using the first two lines to determine the new alphabet to be used to decode\nthe third line."
+}

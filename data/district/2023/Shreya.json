@@ -1,0 +1,5 @@
+{
+  "Body": "Your friend Shreya left you to pay for lunch, but you only have the coins in your pocket! Quickly, determine whether or not you\ncan pay for the meal given the money you have in your pocket. However, you are a cheapskate, and will only be able to pay for\nthe meal if you can make the target amount <b>exactly</b> with the coins in your pocket. For example, if you have 2 coins of value 5,\nand you need to make 8 to pay for the meal, due to your cheapskate ways, you will not be able to pay for the meal, and you must\ndine and dash.",
+  "Input": "The first line will contain a single integer n (0 < n < 50) that indicates the number of data sets that follow. Each\ndata set will consist of a line with an unknown number of integers, each denoting the value of one of the coins in your pocket.\nThe following line will contain a single integer denoting the target value, or the value we are trying to make.",
+  "Output": "If you can make the correct amount, output the string “Business as usual.”, otherwise, output the string “Dine\nand Dash.”"
+}

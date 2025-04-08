@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "Bogdan has a big month of January to start the new year in 2023! The month of January starts off with no class on January 2nd\nas part of the New Year’s Celebration. There is also no class on January 16th, in observance of Martin Luther King Day. Last,\nbut certainly not least, Bogdan’s 16th birthday is on January 31st.\n\nBogdan attends the very prestigious Ultimate Intellectual Leadership academy, which utilizes a block scheduling system for their\nclass schedule. Instead of attending every single one of his classes every day for a short period of time, he attends his 1st, 3rd,\n5th, and 7th periods on “A” days, and he attends his 2nd, 4th, 6th, and 8th periods on “B” days. Since he only goes to each class\nevery-other-day, each class period is twice as long, as it would have been if all eight periods would be if attended every single\nday.\n\nWith so much going on, Bogdan decides to write a program that will output his calendar in a spreadsheet like format. Can you\nhelp him write a program that will output his January calendar so that Bogdan always knows whether he needs to attend his “A”\nday or “B” day classes?",
+  "Input": "None",
+  "Output": "The exact calendar as shown below."
+}

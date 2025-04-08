@@ -1,0 +1,5 @@
+{
+  "Body": "Your and your brother George are driving down to see your grandparents for the weekend. Oh No! George forgot to fill up the\ngas tank! And there are no gas stations between you and your grandparents’ house! Quickly find out if you have enough gas to\nget to their house, or not",
+  "Input": "The first line will contain a single integer n (0 < n < 50) that indicates the number of data sets that follow. Each\ndata set will start with three integers A, B, and C, separated by spaces, denoting the average miles per gallon that your car gets at\nthe current (undisclosed, and unnecessary for the problem) speed, the number of gallons of gas left in the car, and how many\nmiles left between you and your grandparents’ house, respectively.",
+  "Output": "If you have enough gas to get to their house, output the string “Never tell me the odds.”, otherwise output\nthe string “I've got a bad feeling about this.”."
+}
