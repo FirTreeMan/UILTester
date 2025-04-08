@@ -1,0 +1,5 @@
+{
+  "Body": "Andrew is simply mesmerized by one-digit natural numbers. He has spent countless hours … hmm ... counting from one to nine.\nNumbers ten and greater do not impress him. He does not even think about numbers less than one (as he is a very positive\nperson). Don't even attempt to give him a decimal number.\n\nAndrew wants the user to input a natural number. He would like a program to list the one-digit factors of the number written in\nword form. Please write the program that will do just that. ",
+  "Input": "The first line of data will be an integer in the range [1,20] indicating the number of data sets. Each data set will contain\none integer in the range [1,1000000].",
+  "Output": "Each output line will contain one or more of the words {ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT,\nNINE} separated by one space. The words represent the one-digit factors. These should be written in numerical order where\nONE is first and NINE is last."
+}

@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "This is the year!!! The time is now!!! Leaguetown HS is ready to go to state in UIL Computer Science. Akansha is the coach and\nshe is determined to work as hard as she can to get her students ready for the contest season.\n\nIn order to do this, she is making a poster with the 2023 UIL Computer Science State Champions. She is printing the conference,\nthe team score, and the school from all six State Champions.\n\nWill you help her? Write a program to print the chart below exactly as you see in the sample. With your help. Leaguetown HS\nmay be on the verge of making history. ",
+  "Input": "None",
+  "Output": "Your chart will have seven lines - a title line followed by six lines including the conference, the score, and the school\nname. The output should be formatted exactly as shown below. Note that all letters are uppercase."
+}

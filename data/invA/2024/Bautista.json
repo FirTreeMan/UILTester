@@ -1,0 +1,5 @@
+{
+  "Body": "Bautista had a traumatic learning experience when he was a child. The week that his elementary school class was learning about\nvowels was not a good week for him. He had a terrible toothache all week and it caused him extraordinary pain. Now, whenever\nhe encounters a vowel, he feels the same pain he felt so long ago in that classroom. He thinks, \"OUCH!!!\"\n\nYour job is to write a program to help him visualize his pain. Allow the user to input a word. Replace each vowel with\n\"<b>OUCH!!!</b>\" As you do this, make sure there is no white space separating any part of each output. ",
+  "Input": "The first line of data will be an integer in the range [1,20] indicating the number of data sets. Each data set will contain\none word written in lowercase letters with no spaces and no punctuation. Words will have a length in the range [1,20].",
+  "Output": "Each output line will contain lowercase consonants and OUCH!!!'s. \"y\" will <u>not</u> be considered a vowel. There should\nbe no white spaces between characters in your output."
+}

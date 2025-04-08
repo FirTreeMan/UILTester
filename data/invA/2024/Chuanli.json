@@ -1,0 +1,5 @@
+{
+  "Body": "Your friend Chuanli accidentally drank backwards potion, so now he writes everything backwards! This is really bad timing, as\nhe has a paper due tomorrow. You need to write a program to reverse the order of all the words in his paper, as well as reversing\nall the letters in each word, so that Chuanli will pass. ",
+  "Input": "The input will begin with an integer, n (0 < n <= 1000), denoting the number of test cases to follow. Each test case will\nconsist of an unknown number of space-separated strings to be reversed. These strings can be made up of any ASCII character,\nand each test case will appear on its own line.",
+  "Output": "Output the lists of strings, with the order of the strings reversed, and the order of the characters in each of the strings reversed as\nwell, with all the words being separated by spaces. Each test case output should appear on its own line."
+}

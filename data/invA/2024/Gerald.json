@@ -1,0 +1,5 @@
+{
+  "Body": "Gerald is just beginning to learn programming and still stumbles at times. He has a collection of data to use while practicing his\nprogramming skills. For now, he would like to extract some basic characteristics of that data like the smallest and largest\nnumbers and the mean or average.\n\nCan you help Gerald?",
+  "Input": "An unknown number of lines containing whitespace-separated integers in the range [1000, 9999]. There will be no more\nthan 100 integers.",
+  "Output": "Just four items, the count of integers that were input, the smallest and largest integers found in the data and the mean or\naverage displayed with exactly one digit after a decimal point. Label and format the results exactly as shown below in the\nsample output."
+}

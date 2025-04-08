@@ -1,0 +1,5 @@
+{
+  "Body": "Patryk needs help with an unusual sorting problem. He has a list of 5-digit numbers and needs them sorted so the numbers are\nsorted from right-to-left instead of a normal left-to-right order.\n\n<img/>\n\nThe “Reverse-digit” sorted list starts with all numbers that end with 0 and following numbers are increasing in that position\nfinishing with those that end with 9. The third and fourth numbers both end with 3, so they are sorted by the next digit to left\nand, when that digit is the same as in 48458 and 62258, the next digit establishes the correct order. The same process is used\nwhen the remaining digits match, the digit to left determines their correct order.\n\nCan you help Patryk solve this sorting problem?",
+  "Input": "First line will contain an integer in range [5,50] which is the number of integers that follow remaining lines of data,\nseparated by whitespace. All those integers are 5-digit numbers in range [10000, 99999].",
+  "Output": "A vertical list of the “reverse-digit” sorted numbers as described above."
+}

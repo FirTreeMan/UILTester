@@ -1,0 +1,5 @@
+{
+  "Body": "Surprise! For your birthday your mom got you a roman soldier named Hiro who can help with your math homework. The only\nissue is, all his answers are in roman numerals. You need to write a program to convert all his roman numeral answers into\ndecimal numbers so you can complete the math homework. Roman numerals are listed as uppercase letters, with each letter\ncorresponding to the following values:\nI - 1\nV - 5\nX - 10\nL - 50\nC - 100\nD - 500\nM - 1000\nAll roman numerals will be listed in descending order by value, except for the special case when a lower value character is listed\nbefore the character with a greater value (such as IV, which is the value 4), we subtract the lower value from the higher value.",
+  "Input": "The input will begin with an integer, n, denoting the number of test cases to follow. Each test case will consist of a string of\nroman numerals to be converted. Each string will contain only uppercase alphabetic ASCII characters, each case will appear on\nits own line.",
+  "Output": "Output the integer value that is equivalent to the string of roman numerals given."
+}
