@@ -1,0 +1,13 @@
+List: 2 4 6 8 9
+1-iterations: 6
+2-iterations: 2 8
+3-iterations: 4 9
+
+List: 1000
+1-iterations: 1000
+
+List: 2 3 5 7 11 13 17 19 23 27 29 31
+1-iterations: 13
+2-iterations: 5 23
+3-iterations: 2 7 17 29
+4-iterations: 3 11 19 27 31

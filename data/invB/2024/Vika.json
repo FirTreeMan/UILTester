@@ -1,0 +1,5 @@
+{
+  "Body": "You and your new friend in English class, Vika, have been playing a game. Vika gives you 2 words and its your job to find the\nlongest sequence of letters that exists in both words. This sequence can be made up of any characters in the words, the only\ncondition is that they appear in the same order in both words. For example, the sequence AC is common to both BAC and ABC. ",
+  "Input": "The input will begin with an integer, n (0 < n <= 1000), denoting the number of test cases to follow. Each test case\nwill consist of two space separated strings for you to play the game with. Determine the length of the longest common\nsubsequence of these two strings.",
+  "Output": "Output the length of the longest possible subsequence that is shared between these two strings."
+}

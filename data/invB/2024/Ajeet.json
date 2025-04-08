@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "Ajeet is making travel arrangements for his Leaguetown HS CompSci Team to go to Austin for the State UIL Meet in May 2024.\nTo do this, he needs a calendar of May 2024.\n\nYour job is to display the calendar for him. It should look exactly as shown below.",
+  "Input": "None",
+  "Output": "Duplicate the calendar exactly as shown below. Make sure to include the line below the month consisting of the six\nsets of digits 0-9."
+}

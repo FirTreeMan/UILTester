@@ -1,0 +1,5 @@
+{
+  "Body": "Jana is opening a baseball training facility and needs your help making some targets to help the pitchers practice their accuracy.\nYou will be given the size of the target, and you need to print out the front of it to be painted onto the target. Each target will be\nsize ixi, with rings of '#' characters, moving inwards and having every other ring be made of spaces (see sample output).",
+  "Input": "The input will begin with an integer n, denoting the number of test cases to follow. Each test case will consist of an integer, i,\non its own line, denoting the height and width of the target to be printed. ",
+  "Output": "Output the ixi target design as described above and shown in the sample output"
+}
