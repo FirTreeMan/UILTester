@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.function.BiConsumer;
 
 public class SelectorFrame extends JFrame implements ActionListener {
-    public static final String[] levels = {"District", "Region", "State", "Invitational A", "Invitational B"};
+    public static final String[] levels = {"District", "Region", "State", "InvA", "InvB"};
     public static final ArrayList<Integer> districtYears = new ArrayList<>(), regionYears = new ArrayList<>(), stateYears = new ArrayList<>(), invAYears = new ArrayList<>(), invBYears = new ArrayList<>();
     public static final ArrayList[] years = {districtYears, regionYears, stateYears, invAYears, invBYears};
 
