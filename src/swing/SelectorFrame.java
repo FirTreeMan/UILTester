@@ -9,9 +9,9 @@ import java.util.List;
 import java.util.function.BiConsumer;
 
 public class SelectorFrame extends JFrame implements ActionListener {
-    public static final String[] levels = {"District", "Region", "State"};
-    public static final ArrayList<Integer> districtYears = new ArrayList<>(), regionYears = new ArrayList<>(), stateYears = new ArrayList<>();
-    public static final ArrayList[] years = {districtYears, regionYears, stateYears};
+    public static final String[] levels = {"District", "Region", "State", "Invitational A", "Invitational B"};
+    public static final ArrayList<Integer> districtYears = new ArrayList<>(), regionYears = new ArrayList<>(), stateYears = new ArrayList<>(), invAYears = new ArrayList<>(), invBYears = new ArrayList<>();
+    public static final ArrayList[] years = {districtYears, regionYears, stateYears, invAYears, invBYears};
 
     private final JComboBox<String> levelList = new JComboBox<>(levels);
     private final JComboBox<Integer> yearList = new JComboBox<>();
@@ -26,7 +26,9 @@ public class SelectorFrame extends JFrame implements ActionListener {
         yearModels = new DefaultComboBoxModel[]{
                 new DefaultComboBoxModel<>(years[0].toArray(Integer[]::new)),
                 new DefaultComboBoxModel<>(years[1].toArray(Integer[]::new)),
-                new DefaultComboBoxModel<>(years[2].toArray(Integer[]::new))
+                new DefaultComboBoxModel<>(years[2].toArray(Integer[]::new)),
+                new DefaultComboBoxModel<>(years[3].toArray(Integer[]::new)),
+                new DefaultComboBoxModel<>(years[4].toArray(Integer[]::new))
         };
 
         levelList.addActionListener(this);
@@ -68,6 +70,8 @@ public class SelectorFrame extends JFrame implements ActionListener {
         districtYears.addAll(findYearsForLevel(new File(pathBase + "district").listFiles()));
         regionYears.addAll(findYearsForLevel(new File(pathBase + "region").listFiles()));
         stateYears.addAll(findYearsForLevel(new File(pathBase + "state").listFiles()));
+        invAYears.addAll(findYearsForLevel(new File(pathBase + "invA").listFiles()));
+        invBYears.addAll(findYearsForLevel(new File(pathBase + "invB").listFiles()));
     }
 
     private List<Integer> findYearsForLevel(File[] files) {
