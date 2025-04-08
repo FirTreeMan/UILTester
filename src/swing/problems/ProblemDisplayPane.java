@@ -18,8 +18,8 @@ public class ProblemDisplayPane extends JScrollPane {
     private final String path;
     private final String imgPath;
     private final String[] problemNames = new String[12];
-    private String name, programName, inputFile, body, input, output, sampleInput, sampleOutput;
-    private final JLabel nameLabel, programNameLabel, inputFileLabel, bodyLabel, inputLabel, outputLabel, sampleInputLabel, sampleOutputLabel;
+    private String name, programName, inputFile, body, input, output, sampleInput, sampleOutput, note;
+    private final JLabel nameLabel, programNameLabel, inputFileLabel, bodyLabel, inputLabel, outputLabel, sampleInputLabel, sampleOutputLabel, noteLabel;
     private final JPanel headerPanel = new JPanel(), infoPanel = new JPanel(), samplePanel = new JPanel(), uploadPanel = new JPanel(), sampleTestPanel = new JPanel();
     private final JLabel testOutputLabel, testResultLabel;
     private int id = -1;
@@ -47,6 +47,7 @@ public class ProblemDisplayPane extends JScrollPane {
         outputLabel = new JLabel();
         sampleInputLabel = new JLabel();
         sampleOutputLabel = new JLabel();
+        noteLabel = new JLabel();
 
         testResultLabel = new JLabel();
         testOutputLabel = new JLabel();
@@ -97,11 +98,22 @@ public class ProblemDisplayPane extends JScrollPane {
         output = data.getString("Output").replace("\n", "<br>");
         sampleInput = Files.readString(Paths.get(path + problemNames[id].toLowerCase() + "-sample.dat")).replace("\n", "<br>");
         sampleOutput = Files.readString(Paths.get(path + problemNames[id].toLowerCase() + "-sample.out")).replace("\n", "<br>");
+        note = (data.has("Note")) ? data.getString("Note") : "";
 
         int imgTrack = 0;
         while (body.contains("<img/>")) {
             String imgSrc = new File(imgPath + problemNames[id].toLowerCase() + (imgTrack == 0 ? "" : imgTrack) + ".png").toURI().toURL().toExternalForm();
             body = body.replaceFirst("<img/>", "<img src=\"" + imgSrc + "\">");
+            imgTrack++;
+        }
+        while (input.contains("<img/>")) {
+            String imgSrc = new File(imgPath + problemNames[id].toLowerCase() + (imgTrack == 0 ? "" : imgTrack) + ".png").toURI().toURL().toExternalForm();
+            input = input.replaceFirst("<img/>", "<img src=\"" + imgSrc + "\">");
+            imgTrack++;
+        }
+        while (output.contains("<img/>")) {
+            String imgSrc = new File(imgPath + problemNames[id].toLowerCase() + (imgTrack == 0 ? "" : imgTrack) + ".png").toURI().toURL().toExternalForm();
+            output = output.replaceFirst("<img/>", "<img src=\"" + imgSrc + "\">");
             imgTrack++;
         }
 
@@ -111,8 +123,9 @@ public class ProblemDisplayPane extends JScrollPane {
         bodyLabel.setText("<html>" + body + "</html>");
         inputLabel.setText("<html><b>Input: </b>" + input + "</html>");
         outputLabel.setText("<html><b>Output: </b>" + output + "</html>");
-        sampleInputLabel.setText("<html>" + sampleInput + "</html>");
-        sampleOutputLabel.setText("<html>" + sampleOutput + "</html>");
+        sampleInputLabel.setText("<html><pre>" + sampleInput + "</pre></html>");
+        sampleOutputLabel.setText("<html><pre>" + sampleOutput + "</pre></html>");
+        noteLabel.setText(note.isEmpty() ? "" : "<html>Note: " + note + "</html>");
 
         sampleTestPanel.setVisible(false);
     }
@@ -197,7 +210,7 @@ public class ProblemDisplayPane extends JScrollPane {
                 StringBuilder toWrite = new StringBuilder();
                 while (sc.hasNextLine())
                     toWrite.append(sc.nextLine()).append("<br>");
-                testResultLabel.setText("<html>" + toWrite + "</html>");
+                testResultLabel.setText("<html><pre>" + toWrite + "</pre></html>");
 
                 testOutputLabel.setText(status.getHoverText());
                 testOutputLabel.setForeground(status.getBorder());
