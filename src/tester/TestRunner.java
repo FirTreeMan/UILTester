@@ -44,7 +44,7 @@ public class TestRunner {
         consumer.join();
 
         if (tle) return TestCaseStatus.TIME_LIMIT_EXCEEDED;
-        if (!(new File(testPath + "/" + program)).isFile()) return TestCaseStatus.WRONG_CLASS_NAME;
+        if (!(new File(testPath + program + ".class").isFile())) return TestCaseStatus.WRONG_CLASS_NAME;
         if (p.exitValue() != 0) return TestCaseStatus.RUNTIME_ERROR;
 
         BufferedReader source = new BufferedReader(new FileReader(outputSource));
