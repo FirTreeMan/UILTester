@@ -1,0 +1,7 @@
+{
+  "No Input": 1,
+  "Body": "Ajay and his pals have decided to take action. They realize that there is one geometric figure that simply does not get enough\nrespect. That figure of course is the modest and humble … trapezoid. While it is one of the coolest shapes that exist, it does not\nseem to get as much publicity as its comrades like circles, squares, octagons, and virtually every other figure. So, Ajay and his\nfriends have declared this week as \"International Trapezoid Week.\"\n\nYour job is to print the isosceles trapezoid that is displayed below. It must be identical in that it is the same size and uses the\nsame characters in the design. This will become the \"face\" of \"International Trapezoid Week\" and will be seen on posters, tshirts, and billboards everywhere. ",
+  "Input": "None",
+  "Output": "The output will be exactly what is shown below, using minus signs, back slashes, forward slashes, and uppercase\nletters.",
+  "Note": "On the bottom line, there are 18 minus signs on either side of the word \"TRAPEZOID.\" Also notice the word\n\"TRAPEZOID\" on the top base is directly above the \"TRAPEZOID\" on the bottom base."
+}

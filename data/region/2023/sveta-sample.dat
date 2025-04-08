@@ -1,0 +1,36 @@
+7
+Bits=8
+Set to 1: 0,2,4,5
+Set to 0: n/a
+Invert: n/a
+--------------------
+Bits=16
+Set to 1: 0,2,4,5
+Set to 0: n/a
+Invert: n/a
+--------------------
+Bits=16
+Set to 1: n/a
+Set to 0: 1,6,8,11,12
+Invert: n/a
+--------------------
+Bits=32
+Set to 1: n/a
+Set to 0: 1,6,8,11,12
+Invert: n/a
+--------------------
+Bits=8
+Set to 1: n/a
+Set to 0: n/a
+Invert: 0,1,2,3,4,5,6,7
+--------------------
+Bits=16
+Set to 1: n/a
+Set to 0: n/a
+Invert: 1,2,3,7
+--------------------
+Bits=32
+Set to 1: n/a
+Set to 0: 4
+Invert: 1,2,3,8,9
+--------------------

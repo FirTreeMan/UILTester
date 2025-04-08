@@ -1,0 +1,7 @@
+opnd | 35
+opnd | 35
+opnd & E6BD
+opnd & FFFFE6BD
+opnd ^ FF
+opnd ^ 8E
+This can not be done with a single bitwise operator.

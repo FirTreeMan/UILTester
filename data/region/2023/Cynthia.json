@@ -1,0 +1,5 @@
+{
+  "Body": "You and your friend Cynthia are having a competition. Given the height, and length of both bases of a trapezoid, it is trivial to\ndetermine the area of the trapezoid. The game is as follows: Given 3 numbers, determine what the largest possible area is, if\nthose three values can be used in any configuration to make a trapezoid. ",
+  "Input": "The first line will contain a single integer n that indicates the number of data sets that follow. Each data set consists of 3\nintegers, w, x, and y all separated by spaces. All of these values will be integers in the range [0,1000].",
+  "Output": "Output the value of the area of the largest trapezoid that can be created with the 3 given values. All output values must\nbe formatted to one decimal place, and must use commas to separate every 3 digits before the decimal. "
+}
