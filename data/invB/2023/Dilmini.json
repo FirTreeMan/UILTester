@@ -1,0 +1,8 @@
+{
+  "No Input": 1,
+  "Body": "Oh No! You broke your friend Dilmini’s phone, and he’s prone to outbursts when he gets upset! Quick, make him a new phone\nbefore he notices.",
+  "Input": "There is no input for this problem.",
+  "Output": "Output the ascii image of the phone exactly as shown in the sample output, without the first and last lines of numbers\n(These lines are only there to help you determine how many underscores are present, the .out file shows exactly what should be\noutput.)",
+  "Pre Output": "<b>123456789012345678901</b>\n",
+  "Post Output": "\n<b>123456789012345678901</b>"
+}

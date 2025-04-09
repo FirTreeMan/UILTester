@@ -1,0 +1,5 @@
+{
+  "Body": "Jacob is fascinated with Math and recently learned that the Math constant π or <b>pi</b> is an irrational number that is approximately\n3.14159265… and it can be computed to desired precision using the following math series:\n\n<img/>\n\nJacob is better with Math than Java programming and has asked for your help computing approximations of π using a variety of\nnumber of terms after the initial value of 3. The above expression would be the approximation using 4 terms and produces the\nfirst value shown below in the sample output.",
+  "Input":"First line will contain a positive integer <b>N</b>, the number of test cases with 0 ≤ <b>N</b>≤ 25. The following <b>N</b>lines will contain a\nsingle positive integer <b>T</b>, the desired number of terms following the initial value of 3 to include in the approximation with 0 ≤ <b>T</b>\n≤ 1000.",
+  "Output": "For each test case, display the computed approximation of π with 13 digits after the decimal point."
+}

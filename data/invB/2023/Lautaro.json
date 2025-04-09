@@ -1,0 +1,5 @@
+{
+  "Body": "You and your friend Lautaro have secured a job at a telemarketing company. Your job is to go through a list of submitted phone\nnumbers, and determine which ones are valid, valid phone number requirements are defined below:\n\n<img/>\n\n",
+  "Input": "The first line will contain a single integer n (0 < n < 50) that indicates the number of data sets that follow. Each\ndata set will consist of a string denoting the phone number to be validated, all on one line.",
+  "Output": "For each data set, if the phone number is valid, output the string \"Valid Phone Number.\". If the phone number\nis invalid, output the string \"No Calls for You.\"."
+}

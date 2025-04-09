@@ -1,0 +1,5 @@
+{
+  "Body": "Your friend Fiorella has Algebra 2 homework due next period, and she forgot all about it! You need to write a program to do the\nhomework before the homework is due.\n\nUse the following formula, given w, x, y, z, and G, solve for n:\n\n\twx<sup>n</sup>y + z = G",
+  "Input": "The first line will contain a single integer b (0 < b < 50) that indicates the number of data sets that follow. Each\ndata set will consist of 5 integers, w, x, y, z, and G, (0 < w, x, y, z, G < 2^31) all separated by spaces.",
+  "Output": "Output the value of n given by solving the equation for n given all the other values. This value should be formatted as\nan integer, and printed as shown in the sample output. There will never be a set of numbers for which there is no valid n."
+}

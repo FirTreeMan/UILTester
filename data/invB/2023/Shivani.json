@@ -1,0 +1,5 @@
+{
+  "Body": "You and Shivani are doing a project for your ancient architecture class, and you need to go buy materials. Your project will be a\ntriangular pyramid made of spheres. The top of the pyramid will be one sphere, and the layer below it will be 3 spheres. The nth\nlayer in the pyramid will have n more spheres than the one above it, so 3 + 3 = 6, 6 spheres in the 3<sup>rd</sup> layer, and so on. You will\nbe given n, the number of layers, and you need to determine how many spheres you will need for the pyramid project.",
+  "Input": "The first line will contain a single integer m that indicates the number of data sets that follow. Each of the following m\nlines will contain an integer n, the number of layers in your triangular pyramid.\n\n<b>Note:</b> The values for n may be quite large, n may be greater than 2^64 (meaning it is too big for an int or long).",
+  "Output": "Output the number of spheres needed to form the triangular pyramid with n layers, as shown in the sample output."
+}
