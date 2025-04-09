@@ -94,10 +94,13 @@ public class ProblemDisplayPane extends JScrollPane {
         programName = problemNames[id] + ".java";
         inputFile = (data.has("No Input") && data.getInt("No Input") == 1) ? "None" : problemNames[id].toLowerCase() + ".dat";
         body = data.getString("Body").replace("\n", "<br>").replace("\t", "&#9;");
-        input = data.getString("Input").replace("\n", "<br>");
-        output = data.getString("Output").replace("\n", "<br>");
+        input = data.getString("Input").replace("\n", "<br>").replace("\t", "&#9;");
+        output = data.getString("Output").replace("\n", "<br>").replace("\t", "&#9;");
         sampleInput = Files.readString(Paths.get(path + problemNames[id].toLowerCase() + "-sample.dat")).replace("\n", "<br>");
-        sampleOutput = Files.readString(Paths.get(path + problemNames[id].toLowerCase() + "-sample.out")).replace("\n", "<br>");
+        sampleOutput = ((data.has("Pre Output") ? data.getString("Pre Output") : "") +
+                Files.readString(Paths.get(path + problemNames[id].toLowerCase() + "-sample.out")) +
+                (data.has("Post Output") ? data.getString("Post Output") : "")
+        ).replace("\n", "<br>");
         note = (data.has("Note")) ? data.getString("Note") : "";
 
         int imgTrack = 0;
