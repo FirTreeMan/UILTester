@@ -1,0 +1,5 @@
+{
+  "Body": "You and your friend Cho have an internship at a data lab and they need you to go through sentences and find the letter that\noccurs the most in each one. ",
+  "Input": "The first line will contain a single integer n (0 < n < 100) that indicates the number of data sets that follow. Each data\nset will consist of one line of an unknown number of words(strings) separated by spaces, all appearing on the same line.",
+  "Output": "Output the alphabetic (A-Za-z) character which occurred in the input line the most, do not include numbers,\nwhitespace, special characters, or anything else that isn’t a letter. If there is a tie, just choose the letter that comes first\nalphabetically, with the ENTIRE capital alphabet coming before the lowercase alphabet (basically sort by ascii values)."
+}

@@ -1,0 +1,5 @@
+{
+  "Body": "Your parents have asked you to help your younger brother, Marek, with his homework. He gave you 10 bucks to do it for him\nwhile he goes to the movies with his friends. Write a computer program to do all his homework problems.",
+  "Input": "The input will begin with a single integer, t (1 <= t <= 100) denoting the number of test cases to follow. Each of the t\ntest cases will be composed a single line with an infix expression made up of integers and +, -, *, /, (, ). Use standard order of\noperations to evaluate the expressions, all integers and operators on the line will be separated by spaces. ",
+  "Output": "For each of the t test cases, print out the answer to the given infix expression. Use integer division,\ni.e. ½ = 0. If division by 0 ever occurs, print out “Infinity.”"
+}

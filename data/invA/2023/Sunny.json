@@ -1,0 +1,5 @@
+{
+  "Body": "Sunny is only a freshman and has been really excited about taking UIL programming. She has been looking at the dual-credit\ncourses that are available through her school and hopes to start college with enough credits to reduce her in-person college\nexperience to 3 years. She discovered the Texas Common Course Numbering System (TCCNS) but the data she found was not\nvery user-friendly. She needs your help to generated a sorted list of courses. (Note: the data here is less than 10% of the real\ndata!)",
+  "Input": "An unknown number of lines with each line containing a 9-character course code followed by a single space and the\ncourse title. There are no punctuation or special characters except for the dash in the course codes.",
+  "Output": "Alphabetical (A…Z) list by course title with course codes following the titles in a set of parentheses, separated by a\nsingle space."
+}

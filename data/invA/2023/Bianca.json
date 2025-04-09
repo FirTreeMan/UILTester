@@ -1,0 +1,5 @@
+{
+  "Body": "Your friend Bianca has Geometry homework due next period, and she forgot all about it! Quickly write a program to solve\nPythagoras theorem before the homework is due.\n\nUse the following theorem (you are given a and b, so solve for c):\n\n<img/>",
+  "Input": "The first line will contain a single integer n (0 < n < 100) that indicates the number of data sets that follow. Each data\nset will consist of two integers A and B (0 < A, B < 1000), separated by a space, denoting the values A and B in the equation\nabove.",
+  "Output": "Output the value of C (0 < C < 1000000) given the A and B values from the input, rounded to 2 decimal places, as\nshown below."
+}
