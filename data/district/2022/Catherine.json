@@ -1,0 +1,5 @@
+{
+  "Body": "Catherine, like the rest of the word, is intrigued by the game of Wordle. She needs a program that will allow her to compare a\ntarget word and an attempted guess. Write a program that inputs first, the target word, then the guess. Compare the two words\nand provide the indicated output.\nNote: Each word will be a 5-letter word consisting of lower-case letters only. For this program, neither word will contain any\nrepeated letters. That is each word will contain five unique lower-case letters.\nThe program should compare the two words letter-by-letter.\n\n<img/>",
+  "Input": "The first line consists of a number N, representing the number of lines of data to follow. N will be in the range of [1,50].\nThe next N lines of data consist of two five-character strings each consisting only of lower-case letters. One space will separate\nthose words.",
+  "Output": "Each output will be five characters consisting of uppercase letters, lowercase letters, and asterisks."
+}

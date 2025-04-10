@@ -1,0 +1,5 @@
+{
+  "Body": "Lavanya just learned how to take the prime factorization of a number in her Algebra class. Recall, prime factorization is a way of\nexpressing a number as a product of its prime factors. Remember, a prime number is a number that is divisible by 1 and itself\nonly. For example, the prime factorization of 72 is: 2 * 2 * 2 * 3 * 3. A visual representation of this is:\n\n<img/>\n\nIn order to double check her homework problems, Lavanya has decided to write a program to tell her the prime factorization of\nany whole number. Can you help her write such a program?",
+  "Input": "Input will begin with an integer T, the number of test cases. T will be in the range of [1,50]. The following T lines will\neach contain a single integer I. I will be in the range of [2,2147483647]",
+  "Output": "For each integer I, you are to output: “I = primefactor1 * primefactor2 * … * primefactorN”.\nThere is one space between all numbers and operators. NOTE: in the output format, the prime factors are in ascending order, ie,\nsmallest to largest. Your output must match this ascending order."
+}

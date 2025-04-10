@@ -1,0 +1,5 @@
+{
+  "Body": "Given a string s, the right rotation of s is the last letter of s, followed by every other letter of s. The left rotation is the first letter\nof s, preceded by every other letter of s.\n\nFor example, with the string “ABCDE”, the right rotation is “EABCD”, and the left rotation is “BCDEA”.\n\nGiven a starting string and a sequence of rotations, Arusha wants to know the resulting string. Write a program to help Arusha\ncalculate this.",
+  "Input": "The first line of input will contain a single integer T, the number of test cases to follow (1 <= T <= 10)\nEach test case will consist of two strings S and I, denoting the string to manipulate, and the instruction sequence.\n1 <= |S| <= 100\n1 <= |I| <= 100\nI will consist of only characters ‘L’ and ‘R’, denoting a left and right rotation instruction.",
+  "Output": "For each test case on its own line, output the resultant string after completing all rotations."
+}

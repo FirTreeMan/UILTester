@@ -1,0 +1,5 @@
+{
+  "Body": "Manos is playing a 2-player game called Two Towers. In this game, there are two stacks of blocks. During each turn, a player\ncan take as many blocks as they wish from a single stack but must take at least one. The player who removes the last block wins\nthe game! Given the number of blocks in each stack and assuming each player plays optimally, determine which player will win.",
+  "Input": "The first line of input will consist of a single integer T, the number of test cases to follow. (1 <= T <= 10)\nThe next T lines will be of the form A B, denoting the height of the towers for each test case. (0 <= A, B <= 100)\nThere will be at least one block.",
+  "Output": "For each test case on a separate line, print P1 if the first player to go will win, and P2 if the second player will win."
+}
