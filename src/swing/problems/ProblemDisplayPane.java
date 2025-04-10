@@ -128,7 +128,7 @@ public class ProblemDisplayPane extends JScrollPane {
         outputLabel.setText("<html><b>Output: </b>" + output + "</html>");
         sampleInputLabel.setText("<html><pre>" + sampleInput + "</pre></html>");
         sampleOutputLabel.setText("<html><pre>" + sampleOutput + "</pre></html>");
-        noteLabel.setText(note.isEmpty() ? "" : "<html>Note: " + note + "</html>");
+        noteLabel.setText(note.isEmpty() ? "" : "<html><b>" + (data.has("Note Header") ? data.getString("Note Header") : "Note") + ": </b>" + note + "</html>");
 
         sampleTestPanel.setVisible(false);
     }
