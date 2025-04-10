@@ -1,0 +1,7 @@
+{
+  "Body": "You are given an array A of length N. An integer X is a k-\"array factor\" of A if the bitwise AND of some k elements (not\nnecessarily consecutive) of A is equal to X. Given A and k, find the largest k-\"array factor\" of A.",
+  "Input": "The first line of input is T (1 <= T <= 50), the number of test cases. The first line of each test case has space-separated integers N\nand k, where N (1 <= N <= 1,000) is the number of elements in the array and k (1 <= k <= N) is the sought k-array factor. The\nsecond line of each test case contains N positive integers in the range [1, 10^18], the elements of A. Note that the elements of A\nmay not fit into a 32-bit integer data type.",
+  "Output": "For each test case, output the largest k-\"array factor\" of A. Format the output with the case numbers as in the samples.",
+  "Note Header": "Sample Explanation",
+  "Note": "The 2-array factors of the first array are 14, 10, and 26. Of these, 26 is the largest."
+}

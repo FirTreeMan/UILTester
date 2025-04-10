@@ -1,0 +1,5 @@
+{
+  "Body": "Agustina and her UIL Computer Science Team are working hard this year preparing for the Regional Meet. They do daily\npractice tests and frequent after-school programming packets. She wants to be reminded of the six teams that won 2020-2021\nUIL Computer Science Team State Championships in the six different conferences. This program will print the names of those\nschools.",
+  "Input": "None",
+  "Output": "The names of the six high schools that won the State Championship in each of the six conferences in 2020-2021.\nFormat exactly as shown below."
+}

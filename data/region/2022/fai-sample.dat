@@ -1,0 +1,37 @@
+9
+City A,City B,City C,City D,City E,City F
+City A
+City A<->City B,City A<->City C,City A<->City E,City A<->City D,City B<->City C,City C<->City F,City C<->City E,City F<->City E,City E<->City D
+--------------------
+Town 0,Town 1,Town 2,Town 3,Town 4
+Town 3
+Town 1<->Town 2,Town 1<->Town 0,Town 2<->Town 0,Town 0<->Town 4,Town 0<->Town 3,Town 3<->Town 4
+--------------------
+Dallas,San Antonio,Houston,El Paso,Austin
+Houston
+Dallas<->San Antonio,Dallas<->Houston,Dallas<->El Paso,Dallas<->Austin,San Antonio<->Houston,San Antonio<->El Paso,San Antonio<->Austin,El Paso<->Austin
+--------------------
+Wall,College Station,San Angelo
+Wall
+Wall<->College Station,College Station<->San Angelo,San Angelo<->Wall
+--------------------
+Lubbock,Loredo,Lampasas,Liberty Hill,Lago Vista
+Lubbock
+Lubbock<->Loredo,Lubbock<->Lampasas,Lubbock<->Liberty Hill,Lubbock<->Lago Vista
+--------------------
+Abilene,Beaumont,Childress,Dalhart,Eden,Fort Worth
+Beaumont
+Abilene<->Fort Worth,Abilene<->Eden,Abilene<->Childress,Abilene<->Beaumont,Beaumont<->Childress,Childress<->Dalhart,Childress<->Eden,Dalhart<->Eden,Eden<->Fort Worth
+--------------------
+Alice,Big Spring,Colorado City,Denton,Eagle Pass,Frenship,Goliad
+Frenship
+Alice<->Big Spring,Alice<->Colorado City,Big Spring<->Colorado City,Big Spring<->Denton,Big Spring<->Eagle Pass,Colorado City<->Denton,Colorado City<->Frenship,Denton<->Eagle Pass,Denton<->Frenship,Frenship<->Eagle Pass,Frenship<->Goliad,Eagle Pass<->Goliad
+--------------------
+Caldwell,Bryan,Navasota,Hempstead,Franklin,Calvert
+Bryan
+Caldwell<->Bryan,Bryan<->Navasota,Navasota<->Hempstead,Hempstead<->Franklin,Franklin<->Calvert,Calvert<->Hempstead,Bryan<->Calvert
+--------------------
+Texline,Brownsville
+Texline
+Texline<->Brownsville
+--------------------

@@ -1,0 +1,11 @@
+Test case #1:
+   12   13   14
+   17   18   19
+--------------------
+Test case #2:
+   28   29
+   34   35
+   40   41
+--------------------
+Test case #3: Unable to extract requested size!
+--------------------

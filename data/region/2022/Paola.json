@@ -1,0 +1,5 @@
+{
+  "Body": "Paola absolutely loves isosceles right triangles. She also is intrigued by the alphabet. This program will combine those two\nthings. You will create a program that creates a right triangle using a continuous string of letters. The program will accept the\ninput of an uppercase letter representing the starting letter. It will also accept the input of the number of rows to be created. The\nprogram will then display a right triangle of the shape shown below - with a hypotenuse having a positive slope.\n\n<img/>\n\nInstead of asterisks, the program will output letters of the alphabet beginning with the input character. The letters will proceed in\norder as shown below. If the letter 'Z' is reached, the next letter will be an 'A'. In the example below, the inputs were M and 6.\n\n<img/>",
+  "Input": "The first line of input will contain a single integer T, the number data lines to follow (1 <= T <= 10).\nEach line of data will consist of an uppercase letter Ch ('A' <= Ch <= 'Z'), and an integer N (1 <= N <= 20) representing the\nnumber of rows that the triangle will use.",
+  "Output": "For each test a triangle will be produced."
+}
