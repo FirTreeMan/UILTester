@@ -1,0 +1,5 @@
+{
+  "Body": "Julia, your neighbor, has recently become obsessed with prime numbers. She wants to know how many prime numbers exist\nwithin the first 100 numbers. She knows you’re a good programmer, so she asks you for help with this problem. You, being the\ngreat friend you are, know Julia will ask follow-up questions past the first 100 so decide to write a program to find the number of\nprime values before any given value.",
+  "Input": "The first input line will contain a value N (1 <= N <= 100) that denotes the number of input lines that follow. Each\nadditional input line will contain a single value V (1 <= V <= 10^7) being the number Julia has asked about.",
+  "Output": "Output the number of prime values less than or equal to the queried value V."
+}

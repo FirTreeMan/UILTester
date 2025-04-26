@@ -1,0 +1,5 @@
+{
+  "Body": "Your good friend Hulin has recently started a new job stocking groceries at the local mega-corporation LostLo. Hulin complains\nto you (and her boss) that he is micromanaging the shifts and as a result, there are too many people working at the same time.\nHer boss, however, does not believe her! Since there are so many employees, she has decided to give you everyone's schedules\nprovided you will write a program to determine the largest number of people working at the same time.",
+  "Input": "The first input line will contain a single value N (1 <= N <= 100) denoting the number of\nschedules to follow. Each following input line will contain a list of 3 space-separated pairs of time\nvalues (B, E) (1 <= B < E <= 86400) denoting the start and stop time of someone's shift (inclusive) during a day.",
+  "Output": "The largest number of people working at a given time."
+}

@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "Your friend Akash has taken a liking to prime numbers. He recently learned about the Sieve of Eratosthenes, a method for\ndetermining prime numbers up to a given limit. The method works as follows: start with 2, and remove all items that are\nmultiples of 2 up to the limit. Then move to the next number in the list (3 in this case) and repeat the process. The remaining\nnumbers must be prime! Akash is curious as to what this would look like for numbers up to 20, so you write a program to output\nthat for him.",
+  "Input": "None",
+  "Output": "Output the list after each step, only output if a value is removed. Numbers are separated by a single space."
+}

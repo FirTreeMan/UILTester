@@ -1,0 +1,5 @@
+{
+  "Body": "You and your friend Ruth are at the beach, building sandcastles. You’ve both been randomly piling sand, but you notice\nsomething interesting. Your sand castles connect to form a wall, with differing heights between each castle. Ruth says she\nwonders how much sand can fit in the empty spaces, and starts measuring the height of the walls. Once home, you have the\nheights of the walls and must write a program to calculate the amount of sand that can fit the space.",
+  "Input": "The first input line will contain a single value N (1 <= N <= 100) denoting the number of input lines that follow. Each\nadditional input line will contain some number M (1 <= M <= 10^7) of space-separated integers\nH (1 <= H <= 20) denoting the height of a sandcastle wall at that position. You may assume that each sandcastle wall (or lack\nthereof) is exactly 1 unit wide.",
+  "Output": " Output for each test case, a single value V denoting the units of sand that could be filled in. Note that you are not\ntrying to make a wall of a single height, but simply fill in gaps between walls."
+}

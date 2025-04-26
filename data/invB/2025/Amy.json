@@ -1,0 +1,5 @@
+{
+  "Body": "Amy has recently become interested in password cracking, specifically the amount of time it takes for a machine to guess a\ngiven password when brute-force guessing. So far, she has been doing the calculations by hand for fun, but Amy knows you’re\npretty good at programming and has asked for your help. Amy would like you to write a program to determine the amount of\ntime it would take a given machine to crack a password.",
+  "Input": "The first input line will contain a number N (1 <= N <= 100) denoting the number of lines to follow.\nEach following line of input will contain a string S (1 <= S.length <= 100) being the password, and a\nvalue G (1 <= G <= 10^20) being the number of guesses the machine can make every second. Passwords will only ever contain\nlowercase English characters and numbers. The computer will guess completely random, legal, passwords of the length of S.",
+  "Output": "Output the amount of time in seconds it would take the given machine to crack the provided password."
+}

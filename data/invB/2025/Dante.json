@@ -1,0 +1,5 @@
+{
+  "Body": "Dante is a new kid at your school, and he LOVES prime numbers. You are playing a game with him lately, where he gives you\ntwo numbers, and you determine how many prime numbers are in between these numbers (not inclusive).",
+  "Input": "The input will begin with an integer, n (0 < n <= 1000), denoting the number of test cases to follow. Each test case\nwill consist of two integers, separated by a space, a and b (0 < a < b <= 100,000), denoting the beginning and end of\nthe range of numbers you are to search through to find out how many prime numbers lie within this range.",
+  "Output": "For each test case, output the number of prime numbers between a and b."
+}
