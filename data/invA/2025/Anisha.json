@@ -1,0 +1,5 @@
+{
+  "Body": "You just got a new cat, and you’ve decided to name her Anisha. Anisha needs a lot of water throughout the day, so you need to\nwrite a program to determine if she has enough water in her bowl, or if she needs more. If Anisha has less than 15 water in her\nbowl, she needs more.",
+  "Input": "The input will begin with an integer, n (0 < n <= 1000), denoting the number of test cases to follow. Each test case\nwill consist of two space separated integers, c and m, denoting the current amount of water in the bowl, and the max amount of\nwater in the bowl. The maximum will never be less than 15.",
+  "Output": "For each test case, if Anisha has enough water, output the string “Way to go, H2O.”. Otherwise output the string\n“On my way to Dehydration Station.”."
+}

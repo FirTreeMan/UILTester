@@ -1,0 +1,5 @@
+{
+  "Body": "Jason has just decided to move to Rainchester, a booming city with promising tech startups eagerly hiring. One thing about\nRainchester that Jason finds interesting, is how much it rains throughout the year. Jason would like to write a program that\ncreates a nice histogram based on the monthly average rainfall in Rainchester. However, he just started a new job and doesn’t\nhave the time. He decided to hire you to do the job for him.",
+  "Input": "The input will be a single line with exactly 365 space-separated values <b>R</b> (0.0 <= R <= 20.0) representing the rainfall for\neach day of the year in sequence from Jan 1st to Dec 31st\n. The months of the year have the following days 31, 28, 31, 30, 31, 30,\n31, 31, 30, 31, 30, 31 (no leap years).",
+  "Output": "The output should be a histogram, with the month abbreviation below the x-axis and a bar of asterisks above showing\nthe average rainfall for that month rounded to the nearest inch. Each row of five *’s should represent an inch of rain."
+}

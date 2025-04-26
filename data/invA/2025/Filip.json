@@ -1,0 +1,5 @@
+{
+  "Body": "Professor Filip is your new teacher from Venezuela. His latest assignment is to create a program to print out a rectangle of a\ngiven character of a given size.",
+  "Input": "The input will begin with an integer, n (0 < n <= 1000), denoting the number of test cases to follow. Each test case\nwill consist of two integers r (0 < n <= 100) and c (0 < n <= 100) denoting the number of rows and columns in the\nrectangle to be printed, a character k denoting the character of which the rectangle is to be made up of, and a Boolean b denoting\nwhether or not the rectangle should be filled in. If not filled in, only the outside edge should be made up of k, and the rest\nshould be empty spaces. If filled in, the entire rectangle should be k.",
+  "Output": "For each test case, output a rectangle with r rows and c columns made up of character k. If b is true, the rectangle\nshould be filled in."
+}

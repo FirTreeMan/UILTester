@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "Alberto is very excited to have started 2025 off with a bang! So far, he has kept his New Year’s resolution, and so to celebrate\nhe has asked you to print out 2025 in big digits. Note: each line has exactly 26 characters.",
+  "Input": "None",
+  "Output": "2025 as a 6-line x 26-character message."
+}

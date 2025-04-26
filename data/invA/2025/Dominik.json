@@ -1,0 +1,5 @@
+{
+  "Body": "Your professor Dr. Dominik has assigned you some homework involving the differenced in time between given historical\nevents. You will be given a “study sheet” of historical events and the dates they occurred. Then, for your homework assignments\nyou will be given pairs of events, and you need to determine the number of days between them.",
+  "Input": "The input will begin with two space-separated integers, n (0 < n <= 1000) and m (0 < m <= 1000), denoting the\nnumber of dates and test cases to follow, respectively. Each of the following n lines will contain a date in the format\n(yyyy/mm/dd), followed by a space, followed by a name of a historical event. The following m lines will contain the names of\ntwo events, separated by a colon. Note that the names of historical events may contain spaces.",
+  "Output": "For each pair of events, output the number of days between them, as an integer, with commas where they should\nappear."
+}
