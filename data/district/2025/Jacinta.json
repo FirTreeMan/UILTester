@@ -1,0 +1,5 @@
+{
+  "Body": "Jacinta has a problem. She’s your boss so that means you have a problem. She needs a program ASAP, and your job is on the\nline. Your program needs to take an array of integers and determine if the array can be partitioned into two separate subarrays\nthat sum to the same value. These subarrays do not need to be contiguous, subarrays can be formed any way you want, but each\nelement can only be in one of the two subarrays.",
+  "Input": "The input will begin with one integer, n (0 < n <= 1000), denoting the number of arrays to be checked. Each of the\nfollowing n lines will contain an unspecified number of space-separated integers to be partitioned.",
+  "Output": "For each test case, if the array can be partitioned into two parts that have equal sums, print the string “Job\nsecured.”. Otherwise, print “Indeed here I come.”."
+}

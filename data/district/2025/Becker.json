@@ -1,0 +1,5 @@
+{
+  "Body": "Becker, a friend of yours, has become a finance guru. They’re talking to you about investing and compound interest, so you get\ncurious. You ask them how long it would take you to reach a certain amount of money if you were to invest. Becker replies that\nit depends on several factors and provides you with this nifty formula below. You, being a programming genius, decide to take\nit upon yourself to write a program to calculate this value.\n\n\tA - Amount goal\n\tP - Principal (initial investment)\n\tr - interest rate as a decimal\n\tn - number of times compounded per year\n\tt - time invested (in years)\n\n<img/>",
+  "Input": "Each input line will contain 4 space-separated values A, r, n, t. Where (1 <= A <= 10^18), (1 <= r <= 100), (1 <= n <=\n52), and (1<= t <= 100). All values will be whole numbers (r is a percent).",
+  "Output": "The minimum whole-dollar rounded principal that needs to be invested to reach the goal in the specified number of\nyears."
+}

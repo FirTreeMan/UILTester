@@ -1,0 +1,5 @@
+{
+  "Body": "Your friend Dean has recently learned about Palindromes in his CS1 class. As he explains to you, a Palindrome is any string that\nis the same forwards and backward. Naturally, this includes a single character. Dean has been going through random books and\npicking out sentences, smashing them together, and counting the number of substrings that are palindromes. A substring, as he\nalso explains to you, is any continuous run of characters in a string.",
+  "Input": "The first input line will contain a number N (1 <= N <= 10) defining the number of strings to check.\nThe following N lines will contain a single string. The length of each string will be a whole number M such\nthat 1 <= M <= 10^5.",
+  "Output": "Output the number of substrings that are palindromic for each string."
+}

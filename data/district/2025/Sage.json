@@ -1,0 +1,5 @@
+{
+  "Body": "Sage is working as a TA for her professor. She needs a program to deliver some statistics on exam grades.",
+  "Input": "Each line in the file will consist of a five-digit ID number followed by an integer exam score in the range\n0 <= score <= 100, separated by a single space. You will not be told how many lines of data are in the file.",
+  "Output": "You need to output the average score to two decimal places, the highest score along with the ID of the student(s) with\nthat score, the lowest score along with the ID of the student(s) with that score, and the number of students whose scores are\nabove the average score. When displaying the data as shown below, each of the indented lines are each 3 spaces deeper on each\nlevel. The IDs need to be listed in the original order they were processed."
+}

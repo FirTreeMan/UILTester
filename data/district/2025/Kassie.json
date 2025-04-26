@@ -1,0 +1,5 @@
+{
+  "Body": "You and Kassie are working on a project together. You need to write a program that takes an expression in the following format,\nand solves for x:\n\n\t(number1) (symbol) (number2) = x\n\nnumber1 and number2 will be positive integer values, and symbol will be the symbol for either addition, subtraction,\nmultiplication, or division. You simply need to determine what x would be. Note: all division will be integer division.",
+  "Input": "The input will begin with an integer, n (0 < n <= 1000), denoting the number of test cases to follow. Each test case\nwill consist of one line in the format listed above in the problem description.",
+  "Output": "Output the integer value of x for the given expression."
+}
