@@ -1,0 +1,5 @@
+{
+  "Body": "Elijah is working on writing a program that rotates images, but he’s having trouble figuring it out. He knows you’re quite apt at\nprogramming and has enlisted you to help him out.",
+  "Input": "The first input line will contain a single number N (1 <= N <= 100) denoting the number of inputs to follow. Each input\nwill start with two values R, C (1 <= R, C <= 100) denoting the number of rows and columns respectively of the image to\nfollow. The following R lines will contain C characters, representing the image Elijah is supposed to rotate. The final line of\neach input will be a single value V (1 <= V <= 10^20) denoting the number of degrees to rotate the image.\n\nNote: V is guaranteed to be a multiple of 90, and all rotations are clockwise.",
+  "Output": "Output each image rotated with a blank line separating each image."
+}

@@ -1,0 +1,5 @@
+{
+  "Body": "It’s springtime and Kai hears the familiar sound of baby chicks coming from his family’s chicken coop in the back yard. Kai\ndecides it’s time for a parade of the new chicks. Display the chicks in a row based on the number of chicks in the data file.",
+  "Input": "The input will consist of a single integer N (1 <= N <= 10) representing the number of chicks to display in the parade.",
+  "Output": "The given parade of chicks in the form as shown below."
+}

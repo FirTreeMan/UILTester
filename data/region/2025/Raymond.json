@@ -1,0 +1,5 @@
+{
+  "Body": "Your classmate Raymond is a bit of an idiot. You’ve explained to him countless times what LCM (Lowest Common Multiple)\nmeans and how to find it between two numbers but he just doesn’t get it. Feeling sorry for him, you’ve decided to go ahead and\njust write a program that given a list of numbers will let Raymond know the LCM.",
+  "Input": "The first input line will contain a value N (1 ≤ N ≤ 100) denoting the number of test cases. Each test case will start with\na single value M (1 ≤ M ≤ 100) representing the number of values in the list. The next line will contain M integers A such that\n(1 ≤ A ≤ 1000), of which you are to find the LCM between them all.",
+  "Output": "Output “Lowest Common Multiple is <b>X</b>” where <b>X</b> is the lowest common multiple. If the LCM is 1, then\ninstead print “LCM NUMBER 1!” to give Raymond a little excitement."
+}

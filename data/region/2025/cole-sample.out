@@ -1,0 +1,22 @@
+TransportBelt (20.00000/s):
+    IronGearWheel: 5
+    IronOre: 30
+    IronPlate: 96
+    TransportBelt: 5
+FastTransportBelt (10.00000/s):
+    FastTransportBelt: 5
+    IronGearWheel: 28
+    IronOre: 115
+    IronPlate: 368
+    TransportBelt: 3
+ExpressTransportBelt (5.00000/s):
+    CrudeOil: 400
+    ExpressTransportBelt: 3
+    FastTransportBelt: 3
+    HeavyOil: 20
+    IronGearWheel: 39
+    IronOre: 158
+    IronPlate: 504
+    Lubricant: 10
+    TransportBelt: 2
+    Water: 200

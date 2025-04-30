@@ -1,0 +1,6 @@
+{
+  "No Input": 1,
+  "Body": "Arlo is drilling to try out for the yell squad at his school. He needs to chant the phrase “Let's go Tyrannosauruses!” exactly 15\ntimes.",
+  "Input": "none",
+  "Output": "Print the phrase “Let's go Tyrannosauruses!” 15 times."
+}

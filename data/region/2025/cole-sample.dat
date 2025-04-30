@@ -1,0 +1,14 @@
+10 3
+ExpressTransportBelt, 1/0.5, 3, (FastTransportBelt, 1), (IronGearWheel, 10), (Lubricant, 20)
+FastTransportBelt, 1/0.5, 2, (TransportBelt, 1), (IronGearWheel, 5)
+TransportBelt, 2/0.5, 2, (IronGearWheel, 1), (IronPlate, 1)
+IronGearWheel, 1/0.5, 1, (IronPlate, 2)
+IronPlate, 1/3.2, 1, (IronOre, 1)
+Lubricant, 10/1, 1, (HeavyOil, 10)
+HeavyOil, 25/5, 2, (CrudeOil, 100), (Water, 50)
+IronOre, 1/1, 0
+CrudeOil, 1/1, 0
+Water, 1/1, 0
+TransportBelt, 20
+FastTransportBelt, 10
+ExpressTransportBelt, 5
